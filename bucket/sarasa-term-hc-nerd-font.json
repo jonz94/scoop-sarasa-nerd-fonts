@@ -47,7 +47,7 @@
             "$registryRoot = if ($isFontInstallationForAllUsers) { \"HKLM\" } else { \"HKCU\" }",
             "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
             "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
-            "    Get-ChildItem $fontDir -Filter $_.Name | ForEach-Object {",
+            "    Get-ChildItem $fontInstallDir -Filter $_.Name | ForEach-Object {",
             "        try {",
             "            Rename-Item $_.FullName $_.FullName -ErrorVariable LockError -ErrorAction Stop",
             "        } catch {",
