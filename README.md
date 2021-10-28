@@ -11,3 +11,8 @@ scoop bucket add sarasa-nerd-fonts https://github.com/jonz94/scoop-sarasa-nerd-f
 ## Generating font manifests
 
 Execute `bin/generate-manifests.ps1` with Powershell to regenerate all of the manifests in this repository from the template (within the same file).
+
+## License
+
+- Code is under the [Unlicense License](LICENSE).
+- Fonts are under the [SIL Open Font License 1.1](https://github.com/be5invis/Sarasa-Gothic/blob/master/LICENSE).
