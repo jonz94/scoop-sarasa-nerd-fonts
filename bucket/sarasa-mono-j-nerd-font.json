@@ -1,9 +1,9 @@
 {
-    "version": "0.34.7",
+    "version": "0.35.0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.34.7/sarasa-mono-j-nerd-font.zip",
-    "hash": "e037902c316b502e993abac2630a8ac3e6decbb81615e73da5611567d96e9b5f",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.35.0/sarasa-mono-j-nerd-font.zip",
+    "hash": "dba169abb2570a4621759c10c0938f45f3ae64975a0d01884780767518de4448",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-mono-j-nerd-font.zip"
