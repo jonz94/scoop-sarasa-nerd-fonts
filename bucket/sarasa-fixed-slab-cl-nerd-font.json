@@ -1,9 +1,9 @@
 {
-    "version": "0.34.7",
+    "version": "0.35.0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.34.7/sarasa-fixed-slab-cl-nerd-font.zip",
-    "hash": "9904057868945a212230b4f2e84131a88f847214af7050e0fb1d2d1c90a5ef5b",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.35.0/sarasa-fixed-slab-cl-nerd-font.zip",
+    "hash": "fabffeee32769d52d31f86c29affeba09dc6cba61683bb39cb56d2c354c91229",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-fixed-slab-cl-nerd-font.zip"
