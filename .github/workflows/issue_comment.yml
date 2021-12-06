@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Pull Request Validation
-        uses: Ash258/Scoop-GithubActions@stable-win
+        uses: ScoopInstaller/Scoop-GithubActions@main
         if: startsWith(github.event.comment.body, '/verify')
         env:
+          USER_EMAIL: github-actions@github.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
