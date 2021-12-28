@@ -9,7 +9,7 @@ jobs:
     runs-on: windows-latest
     name: Issue Verification
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v2
       - name: Verify Issue
         uses: ScoopInstaller/GithubActions@main
         if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
