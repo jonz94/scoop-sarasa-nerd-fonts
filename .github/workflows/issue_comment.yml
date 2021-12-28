@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Pull Request Validation
-        uses: ScoopInstaller/Scoop-GithubActions@main
+        uses: ScoopInstaller/GithubActions@main
         if: startsWith(github.event.comment.body, '/verify')
         env:
           USER_EMAIL: github-actions@github.com

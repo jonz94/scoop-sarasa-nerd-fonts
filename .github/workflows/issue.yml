@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Verify Issue
-        uses: ScoopInstaller/Scoop-GithubActions@main
+        uses: ScoopInstaller/GithubActions@main
         if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
         env:
           USER_EMAIL: github-actions@github.com
