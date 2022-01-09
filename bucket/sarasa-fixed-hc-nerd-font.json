@@ -1,9 +1,9 @@
 {
-    "version": "0.35.7",
+    "version": "0.35.8",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.35.7/sarasa-fixed-hc-nerd-font.zip",
-    "hash": "42a2c8acab3685244af2cda280052aa24a015d00d92f4d8a1854f490e06f108a",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.35.8/sarasa-fixed-hc-nerd-font.zip",
+    "hash": "446d337fa14fe624ab29697b6b2d238e944cbb4f635606a61a2b9e47fdfa7af8",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-fixed-hc-nerd-font.zip"
