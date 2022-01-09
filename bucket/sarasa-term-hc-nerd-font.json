@@ -1,9 +1,9 @@
 {
-    "version": "0.35.7",
+    "version": "0.35.8",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.35.7/sarasa-term-hc-nerd-font.zip",
-    "hash": "1520e3ed0f87a88deb2c4d8e21b47c3d177d9efdf8e864241edb1ac90f62e7f9",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.35.8/sarasa-term-hc-nerd-font.zip",
+    "hash": "f139e5ba4fc0256b6ef65c0398d08121c3946d59b9cd52f19d8015c475491c7f",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-term-hc-nerd-font.zip"
