@@ -1,9 +1,9 @@
 {
-    "version": "0.35.7",
+    "version": "0.35.8",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.35.7/sarasa-fixed-slab-tc-nerd-font.zip",
-    "hash": "49fa4b46b7749f5d14b751eaf7ec3262b3bf47448e458ee297a03a53d02d852e",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.35.8/sarasa-fixed-slab-tc-nerd-font.zip",
+    "hash": "722b8d81ef7867c34425455c79e29e9fb6560236e111a0f4570ec6f81a3fa936",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-fixed-slab-tc-nerd-font.zip"
