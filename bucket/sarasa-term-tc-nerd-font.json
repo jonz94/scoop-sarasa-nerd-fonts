@@ -1,9 +1,9 @@
 {
-    "version": "0.35.9",
+    "version": "0.36.0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.35.9/sarasa-term-tc-nerd-font.zip",
-    "hash": "654040d1f2c775eb493a13748643592c8dca1d42659218e635ecef96056de6da",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.36.0/sarasa-term-tc-nerd-font.zip",
+    "hash": "6d0d0bc4063da867a5c2cd29a5478b77e28dd6591e9d68acde761663eb26e44e",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-term-tc-nerd-font.zip"
