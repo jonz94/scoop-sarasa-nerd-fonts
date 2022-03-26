@@ -1,9 +1,9 @@
 {
-    "version": "0.36.1",
+    "version": "0.36.2",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.36.1/sarasa-mono-slab-k-nerd-font.zip",
-    "hash": "ebf52fbb215ee56eae1f0c1546add704b13a869c81240e3db1e2340e04cb5b95",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.36.2/sarasa-mono-slab-k-nerd-font.zip",
+    "hash": "04830f1ef480f35103060c16312b70ec7fac95bb62dac73686b4f2e9961508fb",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-mono-slab-k-nerd-font.zip"
