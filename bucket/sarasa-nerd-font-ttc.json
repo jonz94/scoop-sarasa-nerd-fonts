@@ -1,13 +1,9 @@
 {
-    "version": "0.37.0",
+    "version": "0.37.0-0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/ttc-sarasa-gothic-nerd-fonts/releases/download/v0.37.0/sarasa-nerd-font-ttc.zip",
-    "hash": "99459c92fdce30e04f771b340d9ac16a87a645f05ad636db98b6a1cf1bcc2f0e",
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/jonz94/ttc-sarasa-gothic-nerd-fonts/releases/download/v$version/sarasa-nerd-font-ttc.zip"
-    },
+    "url": "https://github.com/jonz94/ttc-sarasa-gothic-nerd-fonts/releases/download/v0.37.0-0/sarasa-nerd-font-ttc.zip",
+    "hash": "f82df3e5ffa5c78342e0ca9fb4a16c36e9cb549c0c0b760e167800dc1e98e6d2",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -53,11 +49,18 @@
             "        }",
             "    }",
             "}",
-            "Get-ChildItem $dir -Filter '*.ttc' | ForEach-Object {",
+            "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
             "Write-Host \"The '$app' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
+    },
+    "checkver": {
+        "github": "https://github.com/jonz94/ttc-sarasa-gothic-nerd-fonts",
+        "regex": "releases/tag/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jonz94/ttc-sarasa-gothic-nerd-fonts/releases/download/v$version/sarasa-nerd-font-ttc.zip"
     }
 }

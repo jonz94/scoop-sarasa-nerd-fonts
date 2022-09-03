@@ -1,13 +1,9 @@
 {
-    "version": "0.37.0",
+    "version": "0.37.0-0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.0/sarasa-fixed-j-nerd-font.zip",
-    "hash": "e45f9016327b15ac62d074d278c07827e2dedf2cf4070610ac6adea0228886aa",
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-fixed-j-nerd-font.zip"
-    },
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.0-0/sarasa-fixed-j-nerd-font.zip",
+    "hash": "e3a80c4e7f16a5c0d281e0629406ad7977b8ba264a3e6bc2ae978ebcedb05a02",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -59,5 +55,12 @@
             "}",
             "Write-Host \"The '$app' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
+    },
+    "checkver": {
+        "github": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
+        "regex": "releases/tag/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-fixed-j-nerd-font.zip"
     }
 }
