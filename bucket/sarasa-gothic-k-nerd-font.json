@@ -1,9 +1,9 @@
 {
-    "version": "0.37.1-0",
+    "version": "0.37.2-0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.1-0/sarasa-gothic-k-nerd-font.zip",
-    "hash": "83c12f8403689bb7f637420bba6b7b4d7c3cd6cfd097a4e0ff9da8e8afe69d4b",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.2-0/sarasa-gothic-k-nerd-font.zip",
+    "hash": "18fc9060e6a8b56f0c231102d0b1454099c1651a4199c5f03826f075263be412",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
