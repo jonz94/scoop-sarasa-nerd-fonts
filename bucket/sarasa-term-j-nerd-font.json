@@ -1,9 +1,9 @@
 {
-    "version": "0.37.1-0",
+    "version": "0.37.2-0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.1-0/sarasa-term-j-nerd-font.zip",
-    "hash": "43886bc0bbfb4e0b3b3912a306fc6cf64755403e9649cf021ce505d7c900343a",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.2-0/sarasa-term-j-nerd-font.zip",
+    "hash": "320607735c456efa960c4e5f2cce0d4bb5f950a47c96a028636f3d2dd989eb38",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
