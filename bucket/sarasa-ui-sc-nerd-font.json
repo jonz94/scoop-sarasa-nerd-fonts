@@ -1,9 +1,9 @@
 {
-    "version": "0.37.2-0",
+    "version": "0.37.3-0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.2-0/sarasa-ui-sc-nerd-font.zip",
-    "hash": "237a1879141eae36dacb6aa75503cf6f0efecc7fb14572d994f78d2295a5dc74",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.3-0/sarasa-ui-sc-nerd-font.zip",
+    "hash": "8887b41dd57360cc3fd95b2ee50b1c95b16a8a394fb96a5da51baef65adc980f",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
