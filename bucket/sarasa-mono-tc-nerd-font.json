@@ -1,9 +1,9 @@
 {
-    "version": "0.37.2-0",
+    "version": "0.37.3-0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.2-0/sarasa-mono-tc-nerd-font.zip",
-    "hash": "f63a2f5905b6277525ba0194bdc86f9450d5d361caae267525764bed670e01fb",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.3-0/sarasa-mono-tc-nerd-font.zip",
+    "hash": "156e26064de777368ac9ed70d70d0585ec38450c6cb1c4dd5363c51561b0fcf0",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
