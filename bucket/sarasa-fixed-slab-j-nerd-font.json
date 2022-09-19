@@ -1,9 +1,9 @@
 {
-    "version": "0.37.3-0",
+    "version": "0.37.4-0",
     "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
     "license": "OFL-1.1",
-    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.3-0/sarasa-fixed-slab-j-nerd-font.zip",
-    "hash": "9e01b1e025f75a9bbf4453ceaea8ebe43bb3cf5cd035d814080c2a75bd28d117",
+    "url": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.37.4-0/sarasa-fixed-slab-j-nerd-font.zip",
+    "hash": "c3458f9629f89aaedc17a9872f52aaa92a35b99a84e6e81b42da7d8bc8dd7a02",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
