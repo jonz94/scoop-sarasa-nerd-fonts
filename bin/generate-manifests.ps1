@@ -31,6 +31,7 @@ function Export-FontManifest {
 
     $templateData = [ordered]@{
         "version"       = "0.0"
+        "description"   = "CJK programming font based on Iosevka and Source Han Sans (Nerd Fonts patched)"
         "homepage"      = "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts"
         "license"       = "OFL-1.1"
         "url"           = " "
