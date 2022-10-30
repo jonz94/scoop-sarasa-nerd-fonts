@@ -92,7 +92,7 @@ function Export-FontManifest {
             '            Write-Host ""',
             '            Write-Host " Suggestion " -Background Magenta -Foreground White -NoNewline',
             '            Write-Host ""',
-            '            Write-Host " Close all applications (e.g. vscode) that are using ''$app''," -Foreground Magenta',
+            '            Write-Host " Close all applications that are using ''$app'' (e.g. vscode)," -Foreground Magenta',
             '            Write-Host " and then try again." -Foreground Magenta',
             '            Write-Host ""',
             '            exit 1',
