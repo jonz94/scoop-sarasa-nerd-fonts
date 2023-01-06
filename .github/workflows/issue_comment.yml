@@ -14,5 +14,4 @@ jobs:
         uses: ScoopInstaller/GithubActions@main
         if: startsWith(github.event.comment.body, '/verify')
         env:
-          USER_EMAIL: github-actions@github.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
