@@ -14,5 +14,5 @@ Execute `bin/generate-manifests.ps1` with Powershell to regenerate all of the ma
 
 ## License
 
-- Code is under the [Unlicense License](LICENSE).
+- Code is under the [BSD Zero Clause License](LICENSE).
 - Fonts are under the [SIL Open Font License 1.1](https://github.com/be5invis/Sarasa-Gothic/blob/master/LICENSE).
